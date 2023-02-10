@@ -37,10 +37,6 @@ ul {
     color: var(--color-text-primary);
 }
 
-.footer .logo-second {
-    color: var(--button-filter-bcg);
-}
-
 .site-nav .link {
     color: var(--color-text-primary);
     text-decoration: none;
@@ -127,6 +123,10 @@ ul {
     font-size: 36px;
     line-height: 1.1;
     text-transform: capitalize;
+}
+
+.footer .logo-second {
+    color: var(--button-filter-bcg);
 }
 
 .footer .descr {
