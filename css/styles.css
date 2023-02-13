@@ -296,13 +296,13 @@ ul {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    /*gap: 24px;*/
+    /*gap: 24px;не подходит*/
     margin-bottom: 120px;
     margin-top: 0;
 }
 
 .flex-element {
-    /*flex-basis: calc((100% - 48px) / 3);*/
+    /*flex-basis: calc((100% - 48px) / 3); не подходит*/
     margin-bottom: 48px;
     margin-right: 24px;
 }
@@ -327,8 +327,14 @@ ul {
 /*.border {
     border: 1px solid var(--color-footer);
 }  
-
-добавить бордер везде?*/
+добавить бордер везде? Обернул дивом заголовок и абзац.
+<a href="" class="link">                                
+    <img src="./images/interface.jpg" alt="interface" width="360" height="300">
+    <div class="border">
+        <h2 class="head">Banking App Interface Concept</h2>
+        <p class="descr">App</p>
+    </div>
+</a> */
 
 
 
