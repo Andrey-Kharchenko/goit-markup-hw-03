@@ -123,6 +123,11 @@ ul {
 
 .section {
     padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-image {
+    padding-bottom: 120px;
 }
 
 .section-team {
